@@ -16,7 +16,7 @@ int main()
         exit(1);
     }
 
-    printf("Enter num: ");
+    printf("Digite um número: ");
     scanf("%d",&num);
 
     fprintf(fptr,"%d",num);
