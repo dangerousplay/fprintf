@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+ * Exemplo de escrita em arquivo de texto em C utilizando fprintf
+ *
+ * */
 int main()
 {
     int num;
     FILE *fptr;
     fptr = fopen("program.txt","w");
 
-    if(fptr == NULL)
-    {
+    if(fptr == NULL) {
         printf("Error!");
         exit(1);
     }
